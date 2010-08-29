@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070FCA4E1229045800163F53 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 070FCA4D1229045800163F53 /* icon.png */; };
+		0749BDB71228C940001A87CB /* MoreSettingsExterns.m in Sources */ = {isa = PBXBuildFile; fileRef = 0749BDA91228C8B2001A87CB /* MoreSettingsExterns.m */; };
+		0749BDE31228CA28001A87CB /* MoreSettingsExterns.h in Headers */ = {isa = PBXBuildFile; fileRef = 0749BDE21228CA28001A87CB /* MoreSettingsExterns.h */; };
+		3F516AF712283AF800396690 /* KeyboardSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F516AF512283AF800396690 /* KeyboardSettings.h */; };
+		3F516AF812283AF800396690 /* KeyboardSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F516AF612283AF800396690 /* KeyboardSettings.m */; };
+		3F516AFB12283B0E00396690 /* ScreenshotSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F516AF912283B0E00396690 /* ScreenshotSettings.h */; };
+		3F516AFC12283B0E00396690 /* ScreenshotSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F516AFA12283B0E00396690 /* ScreenshotSettings.m */; };
+		3F516AFE12283B2600396690 /* KeyboardSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F516AFD12283B2600396690 /* KeyboardSettings.xib */; };
+		3F516B0012283B3000396690 /* ScreenshotSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F516AFF12283B3000396690 /* ScreenshotSettings.xib */; };
+		8D202CEA0486D31800D8A456 /* MoreSettings_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA20370C41700C91783 /* MoreSettings_Prefix.pch */; };
+		8D202CEB0486D31800D8A456 /* MoreSettingsPref.h in Headers */ = {isa = PBXBuildFile; fileRef = F506C03C013D9D7901CA16C8 /* MoreSettingsPref.h */; };
+		8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D202CEE0486D31800D8A456 /* MoreSettingsPref.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F506C040013D9D8001CA16C8 /* MoreSettingsPref.tiff */; };
+		8D202CEF0486D31800D8A456 /* MoreSettingsPref.xib in Resources */ = {isa = PBXBuildFile; fileRef = F506C042013D9D8C01CA16C8 /* MoreSettingsPref.xib */; };
+		8D202CF10486D31800D8A456 /* MoreSettingsPref.m in Sources */ = {isa = PBXBuildFile; fileRef = F506C03D013D9D7901CA16C8 /* MoreSettingsPref.m */; };
+		8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F506C035013D953901CA16C8 /* PreferencePanes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		070FCA4D1229045800163F53 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = assets/icon.png; sourceTree = "<group>"; };
+		0749BDA91228C8B2001A87CB /* MoreSettingsExterns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreSettingsExterns.m; path = source/MoreSettingsExterns.m; sourceTree = "<group>"; };
+		0749BDE21228CA28001A87CB /* MoreSettingsExterns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreSettingsExterns.h; path = source/MoreSettingsExterns.h; sourceTree = "<group>"; };
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCFA20370C41700C91783 /* MoreSettings_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreSettings_Prefix.pch; path = source/MoreSettings_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		3F516AF512283AF800396690 /* KeyboardSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyboardSettings.h; path = source/KeyboardSettings.h; sourceTree = SOURCE_ROOT; };
+		3F516AF612283AF800396690 /* KeyboardSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyboardSettings.m; path = source/KeyboardSettings.m; sourceTree = SOURCE_ROOT; };
+		3F516AF912283B0E00396690 /* ScreenshotSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenshotSettings.h; path = source/ScreenshotSettings.h; sourceTree = SOURCE_ROOT; };
+		3F516AFA12283B0E00396690 /* ScreenshotSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScreenshotSettings.m; path = source/ScreenshotSettings.m; sourceTree = SOURCE_ROOT; };
+		3F516AFD12283B2600396690 /* KeyboardSettings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = KeyboardSettings.xib; path = nibs/KeyboardSettings.xib; sourceTree = SOURCE_ROOT; };
+		3F516AFF12283B3000396690 /* ScreenshotSettings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ScreenshotSettings.xib; path = nibs/ScreenshotSettings.xib; sourceTree = SOURCE_ROOT; };
+		8D202CF70486D31800D8A456 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D202CF80486D31800D8A456 /* More Settings.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "More Settings.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
+		F506C03C013D9D7901CA16C8 /* MoreSettingsPref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreSettingsPref.h; path = source/MoreSettingsPref.h; sourceTree = SOURCE_ROOT; };
+		F506C03D013D9D7901CA16C8 /* MoreSettingsPref.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreSettingsPref.m; path = source/MoreSettingsPref.m; sourceTree = SOURCE_ROOT; };
+		F506C040013D9D8001CA16C8 /* MoreSettingsPref.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = MoreSettingsPref.tiff; sourceTree = "<group>"; };
+		F506C043013D9D8C01CA16C8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MoreSettingsPref.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D202CF20486D31800D8A456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */,
+				8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B302D812288E8D000551B0 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				3F516AF512283AF800396690 /* KeyboardSettings.h */,
+				0749BDE21228CA28001A87CB /* MoreSettingsExterns.h */,
+				F506C03C013D9D7901CA16C8 /* MoreSettingsPref.h */,
+				3F516AF912283B0E00396690 /* ScreenshotSettings.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		089C166AFE841209C02AAC07 /* MoreSettings */ = {
+			isa = PBXGroup;
+			children = (
+				07B302D812288E8D000551B0 /* Headers */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA10370C40200C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = MoreSettings;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				F506C035013D953901CA16C8 /* PreferencePanes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				070FCA4D1229045800163F53 /* icon.png */,
+				8D202CF70486D31800D8A456 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				3F516AFD12283B2600396690 /* KeyboardSettings.xib */,
+				F506C040013D9D8001CA16C8 /* MoreSettingsPref.tiff */,
+				F506C042013D9D8C01CA16C8 /* MoreSettingsPref.xib */,
+				3F516AFF12283B3000396690 /* ScreenshotSettings.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3F516AF612283AF800396690 /* KeyboardSettings.m */,
+				0749BDA91228C8B2001A87CB /* MoreSettingsExterns.m */,
+				F506C03D013D9D7901CA16C8 /* MoreSettingsPref.m */,
+				3F516AFA12283B0E00396690 /* ScreenshotSettings.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D202CF80486D31800D8A456 /* More Settings.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DBCFA10370C40200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCFA20370C41700C91783 /* MoreSettings_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D202CE90486D31800D8A456 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CEA0486D31800D8A456 /* MoreSettings_Prefix.pch in Headers */,
+				8D202CEB0486D31800D8A456 /* MoreSettingsPref.h in Headers */,
+				3F516AF712283AF800396690 /* KeyboardSettings.h in Headers */,
+				3F516AFB12283B0E00396690 /* ScreenshotSettings.h in Headers */,
+				0749BDE31228CA28001A87CB /* MoreSettingsExterns.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D202CE80486D31800D8A456 /* More Settings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "More Settings" */;
+			buildPhases = (
+				8D202CE90486D31800D8A456 /* Headers */,
+				8D202CEC0486D31800D8A456 /* Resources */,
+				8D202CF00486D31800D8A456 /* Sources */,
+				8D202CF20486D31800D8A456 /* Frameworks */,
+				8D202CF50486D31800D8A456 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "More Settings";
+			productInstallPath = "$(HOME)/Library/PreferencePanes";
+			productName = MoreSettings;
+			productReference = 8D202CF80486D31800D8A456 /* More Settings.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "MoreSettings" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* MoreSettings */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D202CE80486D31800D8A456 /* More Settings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D202CEC0486D31800D8A456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */,
+				8D202CEE0486D31800D8A456 /* MoreSettingsPref.tiff in Resources */,
+				8D202CEF0486D31800D8A456 /* MoreSettingsPref.xib in Resources */,
+				3F516AFE12283B2600396690 /* KeyboardSettings.xib in Resources */,
+				3F516B0012283B3000396690 /* ScreenshotSettings.xib in Resources */,
+				070FCA4E1229045800163F53 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D202CF50486D31800D8A456 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D202CF00486D31800D8A456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0749BDB71228C940001A87CB /* MoreSettingsExterns.m in Sources */,
+				8D202CF10486D31800D8A456 /* MoreSettingsPref.m in Sources */,
+				3F516AF812283AF800396690 /* KeyboardSettings.m in Sources */,
+				3F516AFC12283B0E00396690 /* ScreenshotSettings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F506C042013D9D8C01CA16C8 /* MoreSettingsPref.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F506C043013D9D8C01CA16C8 /* English */,
+			);
+			name = MoreSettingsPref.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DBD214908BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = source/MoreSettings_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "More Settings";
+				WRAPPER_EXTENSION = prefPane;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DBD214A08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = source/MoreSettings_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "More Settings";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+		1DBD214D08BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 ppc x86_64";
+			};
+			name = Debug;
+		};
+		1DBD214E08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 ppc x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "More Settings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214908BA80EA00186707 /* Debug */,
+				1DBD214A08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "MoreSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214D08BA80EA00186707 /* Debug */,
+				1DBD214E08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
