@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		070FCA4E1229045800163F53 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 070FCA4D1229045800163F53 /* icon.png */; };
+		0726B25A1559832D004858E3 /* DockSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 0726B2571559832D004858E3 /* DockSettings.h */; };
+		0726B25B1559832D004858E3 /* DockSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0726B2581559832D004858E3 /* DockSettings.m */; };
+		0726B25C1559832D004858E3 /* DockSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0726B2591559832D004858E3 /* DockSettings.xib */; };
 		0749BDB71228C940001A87CB /* MoreSettingsExterns.m in Sources */ = {isa = PBXBuildFile; fileRef = 0749BDA91228C8B2001A87CB /* MoreSettingsExterns.m */; };
 		0749BDE31228CA28001A87CB /* MoreSettingsExterns.h in Headers */ = {isa = PBXBuildFile; fileRef = 0749BDE21228CA28001A87CB /* MoreSettingsExterns.h */; };
 		3F516AF712283AF800396690 /* KeyboardSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F516AF512283AF800396690 /* KeyboardSettings.h */; };
@@ -28,6 +31,9 @@
 
 /* Begin PBXFileReference section */
 		070FCA4D1229045800163F53 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = assets/icon.png; sourceTree = "<group>"; };
+		0726B2571559832D004858E3 /* DockSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DockSettings.h; path = source/DockSettings.h; sourceTree = "<group>"; };
+		0726B2581559832D004858E3 /* DockSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DockSettings.m; path = source/DockSettings.m; sourceTree = "<group>"; };
+		0726B2591559832D004858E3 /* DockSettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DockSettings.xib; path = source/DockSettings.xib; sourceTree = "<group>"; };
 		0749BDA91228C8B2001A87CB /* MoreSettingsExterns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreSettingsExterns.m; path = source/MoreSettingsExterns.m; sourceTree = "<group>"; };
 		0749BDE21228CA28001A87CB /* MoreSettingsExterns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreSettingsExterns.h; path = source/MoreSettingsExterns.h; sourceTree = "<group>"; };
 		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -66,6 +72,7 @@
 		07B302D812288E8D000551B0 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				0726B2571559832D004858E3 /* DockSettings.h */,
 				3F516AF512283AF800396690 /* KeyboardSettings.h */,
 				0749BDE21228CA28001A87CB /* MoreSettingsExterns.h */,
 				F506C03C013D9D7901CA16C8 /* MoreSettingsPref.h */,
@@ -108,6 +115,7 @@
 				F506C040013D9D8001CA16C8 /* MoreSettingsPref.tiff */,
 				F506C042013D9D8C01CA16C8 /* MoreSettingsPref.xib */,
 				3F516AFF12283B3000396690 /* ScreenshotSettings.xib */,
+				0726B2591559832D004858E3 /* DockSettings.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -119,6 +127,7 @@
 				0749BDA91228C8B2001A87CB /* MoreSettingsExterns.m */,
 				F506C03D013D9D7901CA16C8 /* MoreSettingsPref.m */,
 				3F516AFA12283B0E00396690 /* ScreenshotSettings.m */,
+				0726B2581559832D004858E3 /* DockSettings.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -151,6 +160,7 @@
 				3F516AF712283AF800396690 /* KeyboardSettings.h in Headers */,
 				3F516AFB12283B0E00396690 /* ScreenshotSettings.h in Headers */,
 				0749BDE31228CA28001A87CB /* MoreSettingsExterns.h in Headers */,
+				0726B25A1559832D004858E3 /* DockSettings.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,9 +192,16 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
 			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "MoreSettings" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 089C166AFE841209C02AAC07 /* MoreSettings */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -205,6 +222,7 @@
 				3F516AFE12283B2600396690 /* KeyboardSettings.xib in Resources */,
 				3F516B0012283B3000396690 /* ScreenshotSettings.xib in Resources */,
 				070FCA4E1229045800163F53 /* icon.png in Resources */,
+				0726B25C1559832D004858E3 /* DockSettings.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +247,7 @@
 				8D202CF10486D31800D8A456 /* MoreSettingsPref.m in Sources */,
 				3F516AF812283AF800396690 /* KeyboardSettings.m in Sources */,
 				3F516AFC12283B0E00396690 /* ScreenshotSettings.m in Sources */,
+				0726B25B1559832D004858E3 /* DockSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +278,6 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -295,8 +313,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				VALID_ARCHS = "i386 ppc x86_64";
 			};
 			name = Debug;
@@ -309,8 +326,7 @@
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				VALID_ARCHS = "i386 ppc x86_64";
 			};
 			name = Release;

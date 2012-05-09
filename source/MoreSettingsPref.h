@@ -2,6 +2,7 @@
 #import <PreferencePanes/PreferencePanes.h>
 #import "KeyboardSettings.h"
 #import "ScreenshotSettings.h"
+#import "DockSettings.h"
 
 @interface MoreSettingsPref : NSPreferencePane {
 	int initialy;
@@ -11,6 +12,7 @@
 	NSViewController * selectedController;
 	NSViewController * keyboard;
 	NSViewController * screenshots;
+	NSViewController * dock;
 }
 
 @property (nonatomic,retain) IBOutlet NSWindow * window;
