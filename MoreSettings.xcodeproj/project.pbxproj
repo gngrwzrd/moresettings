@@ -13,6 +13,9 @@
 		0726B25C1559832D004858E3 /* DockSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0726B2591559832D004858E3 /* DockSettings.xib */; };
 		0749BDB71228C940001A87CB /* MoreSettingsExterns.m in Sources */ = {isa = PBXBuildFile; fileRef = 0749BDA91228C8B2001A87CB /* MoreSettingsExterns.m */; };
 		0749BDE31228CA28001A87CB /* MoreSettingsExterns.h in Headers */ = {isa = PBXBuildFile; fileRef = 0749BDE21228CA28001A87CB /* MoreSettingsExterns.h */; };
+		07CFC070155F5E2F00D00689 /* MouseSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 07CFC06D155F5E2F00D00689 /* MouseSettings.h */; };
+		07CFC071155F5E2F00D00689 /* MouseSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CFC06E155F5E2F00D00689 /* MouseSettings.m */; };
+		07CFC072155F5E2F00D00689 /* MouseSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07CFC06F155F5E2F00D00689 /* MouseSettings.xib */; };
 		3F516AF712283AF800396690 /* KeyboardSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F516AF512283AF800396690 /* KeyboardSettings.h */; };
 		3F516AF812283AF800396690 /* KeyboardSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F516AF612283AF800396690 /* KeyboardSettings.m */; };
 		3F516AFB12283B0E00396690 /* ScreenshotSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F516AF912283B0E00396690 /* ScreenshotSettings.h */; };
@@ -36,6 +39,9 @@
 		0726B2591559832D004858E3 /* DockSettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DockSettings.xib; path = source/DockSettings.xib; sourceTree = "<group>"; };
 		0749BDA91228C8B2001A87CB /* MoreSettingsExterns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreSettingsExterns.m; path = source/MoreSettingsExterns.m; sourceTree = "<group>"; };
 		0749BDE21228CA28001A87CB /* MoreSettingsExterns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreSettingsExterns.h; path = source/MoreSettingsExterns.h; sourceTree = "<group>"; };
+		07CFC06D155F5E2F00D00689 /* MouseSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MouseSettings.h; path = source/MouseSettings.h; sourceTree = "<group>"; };
+		07CFC06E155F5E2F00D00689 /* MouseSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MouseSettings.m; path = source/MouseSettings.m; sourceTree = "<group>"; };
+		07CFC06F155F5E2F00D00689 /* MouseSettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MouseSettings.xib; path = source/MouseSettings.xib; sourceTree = "<group>"; };
 		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -72,6 +78,7 @@
 		07B302D812288E8D000551B0 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				07CFC06D155F5E2F00D00689 /* MouseSettings.h */,
 				0726B2571559832D004858E3 /* DockSettings.h */,
 				3F516AF512283AF800396690 /* KeyboardSettings.h */,
 				0749BDE21228CA28001A87CB /* MoreSettingsExterns.h */,
@@ -111,11 +118,12 @@
 				070FCA4D1229045800163F53 /* icon.png */,
 				8D202CF70486D31800D8A456 /* Info.plist */,
 				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
-				3F516AFD12283B2600396690 /* KeyboardSettings.xib */,
 				F506C040013D9D8001CA16C8 /* MoreSettingsPref.tiff */,
 				F506C042013D9D8C01CA16C8 /* MoreSettingsPref.xib */,
+				3F516AFD12283B2600396690 /* KeyboardSettings.xib */,
 				3F516AFF12283B3000396690 /* ScreenshotSettings.xib */,
 				0726B2591559832D004858E3 /* DockSettings.xib */,
+				07CFC06F155F5E2F00D00689 /* MouseSettings.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -123,11 +131,12 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F506C03D013D9D7901CA16C8 /* MoreSettingsPref.m */,
 				3F516AF612283AF800396690 /* KeyboardSettings.m */,
 				0749BDA91228C8B2001A87CB /* MoreSettingsExterns.m */,
-				F506C03D013D9D7901CA16C8 /* MoreSettingsPref.m */,
 				3F516AFA12283B0E00396690 /* ScreenshotSettings.m */,
 				0726B2581559832D004858E3 /* DockSettings.m */,
+				07CFC06E155F5E2F00D00689 /* MouseSettings.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -161,6 +170,7 @@
 				3F516AFB12283B0E00396690 /* ScreenshotSettings.h in Headers */,
 				0749BDE31228CA28001A87CB /* MoreSettingsExterns.h in Headers */,
 				0726B25A1559832D004858E3 /* DockSettings.h in Headers */,
+				07CFC070155F5E2F00D00689 /* MouseSettings.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +233,7 @@
 				3F516B0012283B3000396690 /* ScreenshotSettings.xib in Resources */,
 				070FCA4E1229045800163F53 /* icon.png in Resources */,
 				0726B25C1559832D004858E3 /* DockSettings.xib in Resources */,
+				07CFC072155F5E2F00D00689 /* MouseSettings.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +259,7 @@
 				3F516AF812283AF800396690 /* KeyboardSettings.m in Sources */,
 				3F516AFC12283B0E00396690 /* ScreenshotSettings.m in Sources */,
 				0726B25B1559832D004858E3 /* DockSettings.m in Sources */,
+				07CFC071155F5E2F00D00689 /* MouseSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

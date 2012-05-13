@@ -1,8 +1,11 @@
 
+#include <signal.h>
+#include <strings.h>
 #import <PreferencePanes/PreferencePanes.h>
 #import "KeyboardSettings.h"
 #import "ScreenshotSettings.h"
 #import "DockSettings.h"
+#import "MouseSettings.h"
 
 @interface MoreSettingsPref : NSPreferencePane {
 	int initialy;
@@ -10,9 +13,10 @@
 	NSView * container;
 	NSPopUpButton * settings;
 	NSViewController * selectedController;
-	NSViewController * keyboard;
-	NSViewController * screenshots;
-	NSViewController * dock;
+	KeyboardSettings * keyboard;
+	ScreenshotSettings * screenshots;
+	DockSettings * dock;
+	MouseSettings * mouse;
 }
 
 @property (nonatomic,retain) IBOutlet NSWindow * window;
