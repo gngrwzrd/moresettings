@@ -8,7 +8,6 @@
 #import "MouseSettings.h"
 
 @interface MoreSettingsPref : NSPreferencePane {
-	int initialy;
 	NSWindow * window;
 	NSView * container;
 	NSPopUpButton * settings;

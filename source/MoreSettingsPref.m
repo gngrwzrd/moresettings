@@ -27,7 +27,6 @@ void sigchld(int signo) {
 	screenshots = [[ScreenshotSettings alloc] initWithNibName:@"ScreenshotSettings" bundle:muBundle];
 	dock = [[DockSettings alloc] initWithNibName:@"DockSettings" bundle:muBundle];
 	mouse = [[MouseSettings alloc] initWithNibName:@"MouseSettings" bundle:muBundle];
-	initialy = [container frame].size.height + [container frame].origin.y;
 	[self popupButtonDidChange:NULL];
 }
 
